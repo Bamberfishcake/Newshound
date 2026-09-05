@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.env
+**/secrets.json
+**/credentials.json
+
+# n8n credential/workflow exports (may embed credential IDs, real prompts, or
+# operational detail not meant for the public repo)
+build/workflow-backup-pre-scrape-frontend.json
+*n8n-credentials*.json
+
+# Raw SQL migrations — contain the real Supabase schema and/or the curated
+# source list. A generic example lives in docs/schema-example.sql instead.
+build/*.sql
+
+# Internal engineering docs — kept private (see repo decision log)
+docs/NODE-MAP.md
+docs/BACKLOG_1.md
+docs/DEFERRED-UPGRADES.md
+
+# Test fixtures — verbatim third-party article text, not redistributed
+test-samples/
+
+# Describes the excluded fixtures above; also references internal bug history
+docs/README.md
+
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Editor/tooling
+.claude/
+**/.claude/
