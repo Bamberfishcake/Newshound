@@ -86,7 +86,7 @@ pass through multiple independent checks:
   the underlying facts, with nothing invented or lost?
 
 Content that fails verification is held for manual review rather than
-published automatically. The system is designed to prefer *no output* over
+published automatically. The system is designed to favour *no output* over
 *wrong output*.
 
 ## Status
