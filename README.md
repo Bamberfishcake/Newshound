@@ -93,4 +93,4 @@ published automatically. The system is designed to favour *no output* over
 
 Actively developed and running on a live schedule. This repository contains
 the public-facing architecture and scaffolding; production credentials,
-prompt engineering, and the curated source list are kept private.
+prompt engineering, the curated source list, and the secret sauce are kept private...for now.
