@@ -7,7 +7,11 @@
 **/credentials.json
 
 # n8n credential/workflow exports (may embed credential IDs, real prompts, or
-# operational detail not meant for the public repo)
+# operational detail not meant for the public repo).
+# NOTE: globbed, not named. The previous exact-filename rule meant any NEW
+# export dropped in build/ was publishable by default.
+build/workflow-*.json
+build/sources-snapshot-*.json
 build/workflow-backup-pre-scrape-frontend.json
 *n8n-credentials*.json
 
